@@ -19,4 +19,12 @@ class Player {
     Byte getHandicap() {
         return this.handicap;
     }
+
+    Short getScore() {
+        return this.score;
+    }
+
+    Short getPoints() {
+        return this.points;
+    }
 }
